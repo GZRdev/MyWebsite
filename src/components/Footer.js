@@ -1,8 +1,15 @@
 import React from 'react'
+import { AppBar, Toolbar, Typography, Container, } from '@mui/material'
 
 const Footer = () => {
   return (
-    <div>Footer page</div>
+    <AppBar position="relative" sx={{ bgcolor: "gray" }}>        
+        <Toolbar sx={{ justifyContent: 'center' }}>
+            <Typography color="white">
+                Footer
+            </Typography>
+        </Toolbar>
+    </AppBar>
   )
 }
 
